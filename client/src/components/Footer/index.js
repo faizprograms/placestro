@@ -5,7 +5,7 @@ function Footer(){
 
 return ( 
 	<div className="footer_container" id="contacts">
-  			<div className="copyright"> ©Copyright 2022 K.Boopathi All Rights Reserved </div>
+  			<div className="copyright"> ©Copyright 2024 Faizal All Rights Reserved </div>
     </div>);
         
 }
