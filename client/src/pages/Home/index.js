@@ -101,72 +101,7 @@ function Home() {
 
         </section>
      
-        <section className="company_container">
-            <div className="company_heading_wrap">
-              <h2 className="company_heading">
-                Over 15+ companies
-              </h2>
-              <p className="company_subheading">
-                Get information about companies.
-                Know about their interview process and prepare for it.</p>
-            </div>
-            <div className="company_wrapper">
-                <div className="company_img">
-                  <img src={zoho}/>
-                </div>
-                <div className="company_img">
-                  <img src={klenty}/>
-                </div>
-                <div className="company_img">
-                  <img src={tcs}/>
-                </div>
-                 <div className="company_img">
-                  <img src={wipro}/>
-                </div>
-                <div className="company_img">
-                  <img src={Capgemini}/>
-                </div>
-                <div className="company_img">
-                  <img src={infosys}/>
-                </div>
-                <div className="company_img">
-                  <img src={softsquare}/>
-                </div>
-                <div className="company_img">
-                  <img src={avasoft}/>
-                </div>
-                <div className="company_img">
-                  <img src={zuci}/>
-                </div>
-                <div className="company_img">
-                  <img src={chainsys}/>
-                </div>
-                 <div className="company_img">
-                  <img src={ami}/>
-                </div>
-                <div className="company_img">
-                  <img src={gigamon}/>
-                </div>
-                <div className="company_img">
-                  <img src={datalogic}/>
-                </div>
-                <div className="company_img">
-                  <img src={mobius}/>
-                </div>
-                <div className="company_img">
-                  <img src={centizen}/>
-                </div>
-                 <div className="company_img">
-                  <img src={vcidex}/>
-                </div>
-                 <div className="company_img">
-                  <img src={jilaba}/>
-                 </div>
-                 <div className="company_img">
-                    <img src={smackcoders}/>
-                 </div>
-            </div>
-        </section>
+      
      
         <Footer/>
     </>);
