@@ -2,6 +2,7 @@ import axios from "axios";
 import swal from "sweetalert";
 
 export default function askQuestion(history){
+  return
       let is_review_added=localStorage.getItem("is_review_added")?parseInt(localStorage.getItem("is_review_added")):0
       if(is_review_added<5){
         if(Math.random()>0.5){
@@ -39,7 +40,7 @@ export default function askQuestion(history){
   }
 
   export async function  askFeedBack(history){
-  
+    return
     let is_feedback_given=localStorage.getItem("is_feedback_given")?parseInt(localStorage.getItem("is_feedback_given")):0
     if(is_feedback_given<5){
       if(Math.random()>0.5){
