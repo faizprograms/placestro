@@ -104,12 +104,12 @@ return ( <>
                   <div className="form_input">
                     <label for="department"> Department<span className="red_color">*</span> </label>
                     <select name="department"  onChange={(e)=>{setDepartment(e.target.value);}} defaultValue={department}>
-                      <option value="CSE">CSE</option>
-                      <option value="MECH">MECH</option>
-                      <option value="EEE">EEE</option>
-                      <option value="ECE">ECE</option>
-                      <option value="CIVIL">CIVIL</option>
-                      <option value="OTHER">OTHER</option>
+                    <option value="B.Sc comp science">B.Sc comp science</option>
+                  <option value="B.Sc info tech">B.Sc info tech</option>
+                  <option value="Visual communication">Visual communication</option>
+                  <option value="M.Sc comp science">M.Sc comp science</option>
+                  <option value="M.Sc info tech">M.Sc info tech</option>
+                  <option value="MCA">MCA</option>
                     </select>
             </div>
 
@@ -155,7 +155,7 @@ return ( <>
                     <input type="new_password" name="new_password" placeholder="New password" onChange={(e)=>{setNewPassword(e.target.value);}} value={new_password} />
                   </div> */}
               </div>
-              <div  className="myform" style={{width:"50%"}}>
+              {/* <div  className="myform" style={{width:"50%"}}>
                   
                   
                   {Object.keys(marks).map(key=>{
@@ -165,7 +165,7 @@ return ( <>
                   </div>)
                   })}
                  
-                </div>
+                </div> */}
                 </div>
                   <div className="form_button">
                       <input type="submit" name="update" value="Update My Account" className="update" onClick={handleClick}/>

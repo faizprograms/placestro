@@ -98,12 +98,12 @@ return ( <>
             <div className="form_input">
                 <label for="department"> Department<span className="red_color">*</span> </label>
                 <select name="department"  onChange={(e)=>{setDepartment(e.target.value);}}>
-                  <option value="CSE">CSE</option>
-                  <option value="MECH">MECH</option>
-                  <option value="EEE">EEE</option>
-                  <option value="ECE">ECE</option>
-                  <option value="CIVIL">CIVIL</option>
-                  <option value="OTHER">OTHER</option>
+                  <option value="B.Sc comp science">B.Sc comp science</option>
+                  <option value="B.Sc info tech">B.Sc info tech</option>
+                  <option value="Visual communication">Visual communication</option>
+                  <option value="M.Sc comp science">M.Sc comp science</option>
+                  <option value="M.Sc info tech">M.Sc info tech</option>
+                  <option value="MCA">MCA</option>
                 </select>
             </div>
 

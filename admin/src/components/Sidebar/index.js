@@ -38,21 +38,21 @@ export default function Sidebar() {
           <span className='sidebar-text'>Companies</span>
         </Link>:<Link to ="/placestroAdmin/companies"><Business className="icon-collapsed"/></Link>}
       </div>
-      <div className='Sidemenu'>
+      {/* <div className='Sidemenu'>
         {expanded?<Link to="/placestroAdmin" className='menu-bars'><Apps className='icons'/>
           <span className='sidebar-text'>Analytics</span>
         </Link>:<Link to ="/placestroAdmin/Analytics"><Apps className="icon-collapsed"/></Link>}
-      </div>
+      </div> */}
       <div className='Sidemenu'>
         {expanded?<Link to="/placestroAdmin" className='menu-bars'><PeopleIcon className='icons'/>
           <span className='sidebar-text'>Admins</span>
         </Link>:<Link to ="/placestroAdmin/admins"><PeopleIcon className="icon-collapsed"/></Link>}
       </div>
-      <div className='Sidemenu'>
+      {/* <div className='Sidemenu'>
         {expanded?<Link to="/placestroAdmin" className='menu-bars'><PeopleIcon className='icons'/>
           <span className='sidebar-text'>Send Mail</span>
         </Link>:<Link to ="/placestroAdmin/sendMails"><EmailIcon className="icon-collapsed"/></Link>}
-      </div>
+      </div> */}
       <div className='Sidemenu'>
         {expanded?<Link to="/logout" className='menu-bars'><ExitToAppIcon className='icons'/>
           <span className='sidebar-text'>Logout</span>

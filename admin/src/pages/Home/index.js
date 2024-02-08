@@ -125,7 +125,7 @@ export default function Home(props) {
           <h2 >{company_count}</h2>
         </Box> 
       </Box>   
-      <div style={{display:"flex",justifyContent:"space-around",alignItems:"center",flexWrap:"wrap",marginTop:"4rem"}}>
+      {/* <div style={{display:"flex",justifyContent:"space-around",alignItems:"center",flexWrap:"wrap",marginTop:"4rem"}}>
         <BarChart data={chartData} title={"Student placed Year Wise"}/>
         <div>
         <label className="filter_option-label"><span>Department: </span></label>
@@ -139,7 +139,7 @@ export default function Home(props) {
                             </select>
           <BarChart data={chartData2} title={"Department wise placed student count"}/>
         </div>
-      </div>    
+      </div>     */}
     </div>
   );
 }
