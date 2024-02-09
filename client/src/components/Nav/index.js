@@ -70,7 +70,7 @@ function Nav({user}) {
 return ( <div className="nav">
               <div className="nav-brand">
                     <Link to="/">  
-                       <p>PlaceStro</p>                   
+                       <p>PlaceChamp</p>                   
                     </Link>
               </div>
 
