@@ -58,7 +58,7 @@ function Nav({user}) {
 return ( <div className="nav">
               <div className="nav-brand">
                     <Link to="/placestroAdmin">  
-                        <p>PlaceStro</p>                   
+                        <p>placechamp</p>                   
                     </Link>
               </div>
 
